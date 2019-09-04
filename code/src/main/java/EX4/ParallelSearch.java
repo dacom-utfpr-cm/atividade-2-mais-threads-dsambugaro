@@ -12,6 +12,7 @@ import java.util.List;
 
 public class ParallelSearch {
 
+
     public static void main(String[] args) throws Exception {
         Integer[] vet = new Integer[1000];
 

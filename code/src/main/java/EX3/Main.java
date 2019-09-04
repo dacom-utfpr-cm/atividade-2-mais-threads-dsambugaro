@@ -53,6 +53,7 @@ public class Main {
         // Finaliza os workers definindo a variavel do loop para falsa
         for (printPrimeNumber worker : workers) {
             worker.setHasWork(false);
+            worker.join();
         }
 
     }
